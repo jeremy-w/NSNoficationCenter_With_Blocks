@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+/** Increments both local counter and global counter when notification received. */
 @interface YourAttempt : NSObject
 @property int localCounter;
 @end
